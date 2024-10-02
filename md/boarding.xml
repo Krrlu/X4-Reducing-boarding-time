@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+    <replace sel="//cue[@name='Infiltration_Ticker']/actions/set_value[@name='this.$BaseProgress']/@exact">(150.0f - $Target.hullpercentage) / 170</replace>
+</diff>
